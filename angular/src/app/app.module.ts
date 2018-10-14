@@ -15,6 +15,7 @@ import { AuthService } from './service/auth.service';
 import { AuthGuard } from './service/auth.guard';
 import { Test2Component } from './components/test2/test2.component';
 import { Rehan1Component } from './components/rehan1/rehan1.component';
+import { Rehan2Component } from './components/rehan2/rehan2.component';
 
 const applicationRoutes:Routes = [
   {path:'login',component:LoginComponent},
@@ -32,7 +33,8 @@ const applicationRoutes:Routes = [
     RegisterComponent,
     ProfileComponent,
     Test2Component,
-    Rehan1Component
+    Rehan1Component,
+    Rehan2Component
   ],
   imports: [
     BrowserModule,
