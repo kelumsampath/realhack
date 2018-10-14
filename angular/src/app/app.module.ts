@@ -13,6 +13,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { Router } from '@angular/router/src/router';
 import { AuthService } from './service/auth.service';
 import { AuthGuard } from './service/auth.guard';
+import { Rehan1Component } from './components/rehan1/rehan1.component';
 
 const applicationRoutes:Routes = [
   {path:'login',component:LoginComponent},
@@ -26,7 +27,8 @@ const applicationRoutes:Routes = [
     NavbarComponent,
     LoginComponent,
     RegisterComponent,
-    ProfileComponent
+    ProfileComponent,
+    Rehan1Component
   ],
   imports: [
     BrowserModule,
